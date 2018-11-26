@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #fff;
+    font-size: 14px;
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.bg-control{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-group{
+    margin-bottom: 15px;
+}
+.form-control{
+    width: 100%;
+    display: block;
+    outline: none;
+    border: solid 1px #ddd;
+    font-size: 12px;
+}
+
+
+
+.btn-primary{
+    background-color: #139696;
+    border: none;
+}
+.btn-gap .btn{
+    margin-right: 8px;
+}
+
+
+.flex-row{
+    display: flex;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.align-items-center{
+    align-items: center;
+}
+
+.panel{
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #dadada;
+}

@@ -1,0 +1,26 @@
+.primary-log-form{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/assets/img/bg-login1.jpg);
+    background-position: center;
+}
+.primary-log-form h2{
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+}
+.primary-log-form .form-box{
+    width: 350px;
+    padding: 20px 22px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+}
+.primary-log-form .btn{
+    border-radius: 0px;
+}

@@ -1,0 +1,23 @@
+<div class="dashboard-page">
+	<div class="dashboard-nav">
+		<ul>
+			<li><a routerLink="/state" routerLinkActive="active"><i class="fa fa-tachometer" aria-hidden="true"></i>Jquery</a></li>
+			<li><a routerLink="/html" routerLinkActive="active"><i class="fa fa-life-ring" aria-hidden="true"></i>HTML</a></li>
+			<li><a routerLink="/css" routerLinkActive="active"><i class="fa fa-cog" aria-hidden="true"></i>CSS</a></li>
+			<li><a href="#"><i class="fa fa-th-list" aria-hidden="true"></i>Angular</a></li>
+			<li><a href="#"><i class="fa fa-random" aria-hidden="true"></i>Javascript</a></li>
+			<li><a href="#"><i class="fa fa-dot-circle-o" aria-hidden="true"></i>Sass</a></li>
+		</ul>
+	</div>
+	<div class="dashboard-content">
+		<div class="dashboard-header flex-row justify-content-end align-items-center">
+			<ul>
+				<li><a href="#"><i class="fa fa-power-off" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a></li>
+			</ul>
+		</div>
+		<div class="dashboard-body">
+			<router-outlet></router-outlet>
+		</div>
+	</div>
+</div>
